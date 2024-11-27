@@ -13,7 +13,7 @@ import os
 import musiclibrary
 
 # Configure API key
-os.environ["GEMINI_API_KEY"] = "AIzaSyCQ322r0exnwSGgqVC8dFTXXwcZgAM1VVo"
+os.environ["GEMINI_API_KEY"] = "Enter your API Key"
 genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 
 # Function to convert text to speech
